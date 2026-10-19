@@ -16,6 +16,8 @@
 
 6.After this your done.  You will need to go into your computers bluetooth device history and remove your old pairing on Lily58 and pair it as a new device.
 
+7. The keymapping is done based on my personal liking and requirements. (Salman - A customer of keyboardhoarders)
+
 # keymap
 
 
