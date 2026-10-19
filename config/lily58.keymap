@@ -73,11 +73,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans     &trans  &trans  &trans   &trans   &trans                     &trans       &trans          &trans          &trans     &trans     &to 0
-&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                     &kp N6       &kp N7          &kp N8          &kp N9     &kp N0     &to 3
-&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans       &kp PLUS        &kp UP_ARROW    &kp EQUAL  &kp RIGHT  &to 4
-&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp SLASH  &kp BSLH
-                           &trans   &trans   &trans   &trans    &trans  &trans       &trans          &trans
+&trans     &trans  &trans  &trans        &trans        &trans                           &trans       &trans          &trans          &trans     &trans     &to 0
+&kp GRAVE  &kp N1  &kp N2  &kp N3        &kp N4        &kp N5                           &kp N6       &kp N7          &kp N8          &kp N9     &kp N0     &to 3
+&kp F1     &kp F2  &kp F3  &kp F4        &kp F5        &kp F6                           &kp MINUS    &kp PLUS        &kp UP_ARROW    &kp EQUAL  &kp RIGHT  &to 4
+&kp F7     &kp F8  &kp F9  &kp F10       &kp F11       &kp F12  &trans       &trans     &kp KP_PLUS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp SLASH  &kp BSLH
+                           &kp LEFT_ALT  &kp LEFT_GUI  &trans   &kp SPACE    &kp ENTER  &trans       &kp BACKSPACE   &kp RIGHT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -94,11 +94,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                          &kp K_VOLUME_UP    &kp KP_NUMLOCK   &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_MINUS  &to 0
+&kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                          &kp K_VOLUME_UP    &kp KP_NUMLOCK   &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_MINUS  &kp DELETE
 &kp TAB           &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                          &kp K_VOLUME_DOWN  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS   &to 4
 &kp LEFT_CONTROL  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                &kp K_PLAY_PAUSE   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ENTER  &kp C_NEXT
-&kp LEFT_SHIFT    &kp F6        &kp F7        &kp F8        &kp F9        &kp F10       &kp F11      &kp F12    &kp K_MUTE         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER  &trans
-                                              &kp LEFT_ALT  &kp LEFT_GUI  &trans        &kp SPACE    &kp ENTER  &kp KP_NUMBER_0    &trans           &kp KP_DOT
+&kp LEFT_SHIFT    &kp F6        &kp F7        &kp F8        &kp F9        &kp F10       &kp F11      &kp F12    &kp K_MUTE         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER  &to 0
+                                              &kp LEFT_ALT  &kp LEFT_GUI  &trans        &kp SPACE    &kp ENTER  &kp KP_NUMBER_0    &kp BACKSPACE    &kp KP_DOT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
