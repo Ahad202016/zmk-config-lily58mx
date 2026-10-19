@@ -73,11 +73,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                          &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8    &kp NUMBER_9     &kp NUMBER_0      &to 0
-&kp GRAVE  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5                                &kp N6        &kp N7          &kp UP_ARROW    &kp N9           &kp N0            &to 3
-&kp F1     &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                                &kp EQUAL     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp K_CALCULATOR  &to 4
-&kp F7     &kp F8        &kp F9        &kp F10       &kp F11       &kp F12       &trans       &trans     &kp PLUS      &kp MINUS       &kp KP_EQUAL    &kp KP_MULTIPLY  &kp SLASH         &kp BSLH
-                                       &kp LEFT_ALT  &kp LEFT_GUI  &trans        &kp SPACE    &kp ENTER  &trans        &kp BACKSPACE   &kp RIGHT_GUI
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                                       &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8    &kp NUMBER_9     &kp NUMBER_0      &to 0
+&kp GRAVE  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5                                                             &kp N6        &kp N7          &kp UP_ARROW    &kp N9           &kp N0            &to 3
+&kp F1     &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                                                             &kp EQUAL     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp K_CALCULATOR  &to 4
+&kp F7     &kp F8        &kp F9        &kp F10       &kp F11       &kp F12       &kp KP_LEFT_PARENTHESIS    &kp KP_RIGHT_PARENTHESIS  &kp PLUS      &kp MINUS       &kp KP_EQUAL    &kp KP_MULTIPLY  &kp SLASH         &kp BSLH
+                                       &kp LEFT_ALT  &kp LEFT_GUI  &trans        &kp SPACE                  &kp ENTER                 &trans        &kp BACKSPACE   &kp RIGHT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
