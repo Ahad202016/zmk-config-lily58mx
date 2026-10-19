@@ -116,8 +116,8 @@
 
             bindings = <
 &kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                          &kp F1  &kp F2          &kp F3          &kp F4           &kp F5   &kp DELETE
-&kp TAB           &trans        &kp Z         &kp W         &kp X         &kp E                                 &kp F6  &kp HOME        &kp UP_ARROW    &kp END          &to 0    &kp INSERT
-&kp LEFT_CONTROL  &trans        &kp A         &kp S         &kp D         &kp F                                 &kp F7  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &to 3    &kp PAGE_UP
+&kp TAB           &kp Q         &kp Z         &kp W         &kp X         &kp R                                 &kp F6  &kp HOME        &kp UP_ARROW    &kp END          &to 0    &kp INSERT
+&kp LEFT_CONTROL  &kp E         &kp A         &kp S         &kp D         &kp F                                 &kp F7  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &to 3    &kp PAGE_UP
 &kp LEFT_SHIFT    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &mkp LCLK    &mkp RCLK  &kp F8  &kp F9          &kp F10         &kp F11          &kp F12  &kp PAGE_DOWN
                                               &kp LEFT_ALT  &kp LEFT_GUI  &trans        &kp SPACE    &kp ENTER  &trans  &kp BACKSPACE   &kp RIGHT_GUI
             >;
