@@ -119,7 +119,7 @@
 &kp TAB           &trans        &kp Z         &kp W         &kp X         &kp E                                 &kp F6  &kp HOME        &kp UP_ARROW    &kp END          &to 0    &kp INSERT
 &kp LEFT_CONTROL  &trans        &kp A         &kp S         &kp D         &kp F                                 &kp F7  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &to 3    &kp PAGE_UP
 &kp LEFT_SHIFT    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &mkp LCLK    &mkp RCLK  &kp F8  &kp F9          &kp F10         &kp F11          &kp F12  &kp PAGE_DOWN
-                                              &trans        &trans        &trans        &kp SPACE    &kp ENTER  &trans  &kp BACKSPACE   &kp RIGHT_GUI
+                                              &kp LEFT_ALT  &kp LEFT_GUI  &trans        &kp SPACE    &kp ENTER  &trans  &kp BACKSPACE   &kp RIGHT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
